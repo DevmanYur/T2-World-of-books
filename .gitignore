@@ -225,7 +225,7 @@ __pycache__/
 local_settings.py
 
 .env
-media/
+
 
 /**/*poetry.lock
 /**/*.poetry.lock
@@ -247,5 +247,5 @@ media/
 
 
 /**/*.gitattributes
-/*index.html
-/*index
+index.html
+index
