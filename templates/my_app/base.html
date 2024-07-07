@@ -16,7 +16,7 @@
                            height="100">
             </div>
             <div class="col-10 ">
-                <h1>Это шапка сайта с логотипом</h1>
+                <h1>Заголовок с логотипом</h1>
             </div>
         </div>
     </div>
@@ -24,9 +24,9 @@
     <div class="container-fluid">
         <div class="row bg-warning text-center">
             <h6>
-                <a href="{% url 'index' %}">Главная страница</a>
-                <a href="{% url 'index' %}">О компании</a>
-                <a href="{% url 'index' %}">Контакты</a>
+                <a href="{% url 'name_index_page_1' %}">Страница 1</a>
+                <a href="{% url 'name_page_2' %}">Страница 2</a>
+                <a href="{% url 'name_page_3' %}">Страница 3</a>
             </h6>
         </div>
     </div>
@@ -41,9 +41,9 @@
              <div class="col-2 ">
                  {% block sidebar %}
                  <nav class="nav flex-column">
-                    <a class="nav-link" href="{% url 'index' %}">Ссылка 1</a>
-                    <a class="nav-link" href="{% url 'index' %}">Ссылка 2</a>
-                    <a class="nav-link" href="{% url 'index' %}">Ссылка 3</a>
+                    <a class="nav-link" href="{% url 'name_index_page_1' %}">Страница 1</a>
+                    <a class="nav-link" href="{% url 'name_page_2' %}">Страница 2</a>
+                    <a class="nav-link" href="{% url 'name_page_3' %}">Страница 3</a>
                  </nav>
                  {% endblock sidebar %}
             </div>
@@ -59,7 +59,7 @@
     <div class="container-fluid">
         <div class="row bg-primary text-center text-white lh-1">
             {% block footer %}
-                <p>Это подвал (footer) всех страниц сайта</p>
+                <p>Подвал</p>
             {% endblock footer%}
         </div>
     </div>
